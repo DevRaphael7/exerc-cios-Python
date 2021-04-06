@@ -1,6 +1,6 @@
 numeroUm, numeroDois = int(input('Numero um: ')), int(input('Numero dois: '))
 
-OP = int(input())
+OP = int(input("Escolha uma opção entre 1 a 4: "))
 
 if OP == 1:
 	operacao = (numeroUm + numeroDois)/2

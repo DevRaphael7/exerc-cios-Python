@@ -1,4 +1,4 @@
-numeroUm, numeroDois, numeroTres = int(input()), int(input()), int(input())
+numeroUm, numeroDois, numeroTres = int(input('Número um: ')), int(input('Número dois: ')), int(input('Número três: '))
 
 if numeroUm > numeroDois and numeroDois > numeroTres:
 	print('Número {} é maior'.format(numeroUm))
