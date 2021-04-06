@@ -1,3 +1,4 @@
+print('======= WELCOME!! ==============\n\n')
 numeroUm, numeroDois = int(input('Digite o número um: ')), int(input('Digite o número dois: '))
 
 if numeroUm > numeroDois:
