@@ -1,4 +1,4 @@
-numeroUm, numeroDois = int(input()), int(input())
+numeroUm, numeroDois = int(input('Digite o número um: ')), int(input('Digite o número dois: '))
 
 if numeroUm > numeroDois:
 	print('O {} é o menor!'.format(numeroDois))
