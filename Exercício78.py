@@ -13,5 +13,8 @@ elif OP == 3:
 	operacao = numeroUm * numeroDois
 elif OP == 4:
 	operacao = numeroUm / numeroDois
+else:
+	print('Digite uma das opções de 1 a 4\n')
+	operacao = 0
 
 print('Resultado: %.2f' % operacao)
